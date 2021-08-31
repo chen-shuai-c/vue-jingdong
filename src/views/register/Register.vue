@@ -27,10 +27,13 @@ export default {
     name: 'Register',
     setup(){
         const router=useRouter();
+        const handleRegister=()=>{
+            
+        }
         const handleLoginClick=()=>{
             router.push({name:"Login"})
         }
-        return {handleLoginClick}
+        return {handleRegister,handleLoginClick}
     }
 }
 </script>
